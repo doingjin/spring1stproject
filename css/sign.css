@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+input{
+	background-color: #FDE990;
+}
+.sign {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 5%;
+}
+
+.loginbox {
+	display: inline-block;
+	border: 1px solid #0F0E3B;
+	background:white;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
+.alert{
+	font-style: italic;
+	font-size:75%;
+	color: #FF502A;
+	margin-left: 5px;
+	text-align: left;
+}
+.fontL {
+	font-size: 100%;
+}
+
+#possible, #impossible, #inputID, #poss, #imposs, #inputPW, #i, #p, #pEmail, #iEmail{
+	display: none;
+}
+
+@media screen and (max-width:768px){
+	.loginbox{
+		width:100%;
+	}
+}
+@media (min-width:769px) and (max-width:1024px){
+	.loginbox{
+		width:75%;
+	}
+}
